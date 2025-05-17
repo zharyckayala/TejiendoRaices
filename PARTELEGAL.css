@@ -1,0 +1,122 @@
+body{
+    background-image: url(patrones/Patron%20de%20fondo%20-%20P%C3%A1gina%20web%20-%20Tejiendo%20Ra%C3%ADces.png );
+    font-family: "Montserrat", sans-serif;
+    background-color: #F4e8dc;
+    margin: 10%;
+    margin-top: 0px;
+    display: inline-block;
+    align-content: center;
+}
+
+.contenedorgrande{ 
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: #F6DAC5;
+    padding: 20px;
+}
+@font-face {
+    font-family: "Artographie" ;src: url("ArtographieBold-PERSONAL_USE.ttf") format("truetype");
+}
+
+h1 {
+    color: #4F4135;
+    text-align: center;
+    font-family: Artographie;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #4F4135;
+    text-align: center;
+    font-family: Artographie;
+    font-size: 24px;
+}
+
+p {
+    color: #4F4135;
+    text-align: justify;
+    font-size: 18px;
+}
+
+ul {
+    color: #4F4135;
+    font-size: 18px;
+}
+
+ol{
+    color: #4F4135;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.logo{
+    width: 30%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+img {
+    width: 45%;
+}
+
+.imagenbloque {
+    width: 50%;
+}
+
+.cabeza {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    background-color: aliceblue;
+}
+.laspatas {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    background-color: aliceblue;
+}
+.imagen-bloque{
+    display: flex;
+    width: 45%;
+}
+
+.texto{
+    width: 45%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.otrotexto{
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+.menu a {
+  text-decoration: none;
+  color: #4F4135;
+  display: block;
+  padding: 5px 10px;
+  background-color: #D4C5B8;
+  border-radius: 5px;
+    margin-top: 10px;
+}
+
+.menu a:hover {
+  background-color: #4F4135;
+  color: #D4C5B8;
+}

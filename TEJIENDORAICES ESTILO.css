@@ -1,0 +1,134 @@
+body{
+    background-image: url(patrones/Patron%20de%20fondo%20-%20P%C3%A1gina%20web%20-%20Tejiendo%20Ra%C3%ADces.png );
+    font-family: "Montserrat", sans-serif;
+    background-color: #F4e8dc;
+    margin: 10%;
+    margin-top: 0px;
+    display: inline-block;
+    align-content: center;
+}
+
+@font-face {
+    font-family: "Artographie" ;src: url("ArtographieBold-PERSONAL_USE.ttf") format("truetype");
+}
+
+h1 {
+    color: #4F4135;
+    text-align: center;
+    font-family: Artographie;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #4F4135;
+    text-align: center;
+    font-family: Artographie;
+    font-size: 24px;
+}
+
+p {
+    color: #4F4135;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.contenedorgrande{ 
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: #F6DAC5;
+    padding: 20px;
+}
+
+img {
+    width: 45%;
+}
+
+video {
+    width: 50%;
+}
+
+ul {
+    color: #4F4135;
+    font-size: 18px;
+}
+
+.video{
+    width: 20%;
+}
+
+.logo{
+    display: inline-block;
+    width: 30%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.imagenbloque {
+    width: 50%;
+}
+
+.local {
+    width: 30%;
+    margin-left: 20%
+}
+
+.texto{
+    width: 45%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.cabeza {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.laspatas {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #4F4135;
+  display: block;
+  padding: 5px 10px;
+  background-color: #D4C5B8;
+  border-radius: 5px;
+    margin-top: 10px;
+}
+
+.menu a:hover {
+  background-color: #4F4135;
+  color: #D4C5B8;
+}
+
+.interactivo a {
+    text-decoration: none;
+  color: #4F4135;
+  padding: 5px 10px;
+  border-radius: 5px;
+    width: auto;
+}
+
+.interactivo a:hover {
+    background-color: #4F4135;
+  color: #D4C5B8;
+}
